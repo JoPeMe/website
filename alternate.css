@@ -1,0 +1,204 @@
+body {
+	font: 14pt Arial;
+	text-align: center;
+	background-color: lightblue;
+}
+
+h1 {
+	padding: 20px 20px 0px 20px;
+	font-size: 36pt;
+}
+
+h1 span {
+	text-transform: uppercase;
+	background: #EC1D24;
+	font: 38pt Arial;
+	font-weight: bold;
+	color: white;
+	padding: 2px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	padding: 20px 10px 20px 10px;
+	background-color: #D4AF37;
+	border: 6px dashed black;
+	border-radius: 25px;
+	color: white;
+	font-weight: bold;
+	font: 14pt Times New Roman;
+}
+
+p {
+	font: 14pt Times New Roman;
+	text-align: center;
+}
+
+span {
+	text-align: center;
+}
+span p {
+	text-align: center;
+}
+
+footer {
+	background: #EC1D24;
+	padding: 10px;
+	font-weight: bold;
+	color: white;
+}
+
+#nav_one:hover {
+	background-color: #E91F1F;
+}
+
+#nav_two:hover {
+	background-color: #0D0EB8;
+}
+
+#nav_three:hover {
+	background-color: #07B01F;
+}
+
+#nav_four:hover {
+	background-color: #7F3194;
+}
+
+#thanos {
+	padding: 20px 20px 0px 20px;
+	font-size: 35pt;
+	font-weight: bolder;
+	letter-spacing: 10px;
+	text-align: center;
+	border-bottom: 3px solid black;
+}
+
+#template {
+	font-size: 75pt;
+	text-align: center;
+	display: inline-grid;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: 100px 335px 325px 450px 300px;
+	padding: 5px;
+}
+
+section > div {
+	background-color: white;
+	border: 3px solid black;
+	text-align: center;
+	height:325px;
+}
+
+div img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#container {
+	font-size: 35pt;
+}
+
+ul {
+	font-size: 14pt;
+	text-align: left;
+	list-style-type: circle;
+	color: red;
+}
+
+#blue-stone {
+	font-size: 55pt;
+	text-shadow: -5px 5px 10px blue;
+}
+
+#orange-stone {
+	font-size: 55pt;
+	text-shadow: -5px 5px 10px orange;
+}
+
+#red-stone {
+	font-size: 55pt;
+	text-shadow: -5px 5px 10px red;
+}
+
+#green-stone {
+	font-size: 55pt;
+	text-shadow: -5px 5px 10px green;
+}
+
+#purple-stone {
+	font-size: 55pt;
+	text-shadow: -5px 5px 10px purple;
+}
+
+#yellow-stone {
+	font-size: 55pt;
+	text-shadow: -5px 5px 10px yellow;
+}
+
+table {
+	text-align: center;
+	border: 2px solid #EC1D24;
+	background: linear-gradient(to right, blue, orange, red, green, purple, yellow);
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th, td {
+	text-align: center;
+	border: 2px solid #EC1D24;
+	background-color: white;
+	padding: 10px;
+}
+
+.stone:hover {
+	animation-name: expand;
+	animation-duration: 2s;
+}
+
+@keyframes expand {
+	from { font-size: 55pt;}
+	to { font-size: 35pt;}
+}
+
+
+
+/* CSS for maze game */
+span:hover {
+	background: green;
+	cursor: pointer;
+}
+
+span {
+	color: transparent;
+	font-weight: bold;
+	font-size: 15pt;
+}
+.default-p {
+	font-size: 12pt;
+	text-align: left;
+}
+#transparent-div {
+	color: transparent;
+	text-align: left;
+}
+
+#border {
+	border: 2px solid black;
+	width: 400px;
+	height: 400px;
+}
+
+#blank-link:hover {
+	color: black;
+}
+
+#blank-link {
+	color: transparent;
+}
